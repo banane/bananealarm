@@ -19,7 +19,6 @@ public class AlarmService extends Service
    private static final String TAG = "BANANEALARM";
    private NotificationManager notificationManager;
    private PendingIntent pendingIntent;
-   private  Notification notification;
    
     @Override
     public IBinder onBind(Intent arg0)

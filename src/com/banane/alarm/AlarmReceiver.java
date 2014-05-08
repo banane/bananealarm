@@ -20,15 +20,8 @@ public class AlarmReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		Log.d(TAG, "in onreceive");
-		
-
 		 Intent service1 = new Intent(context, AlarmService.class);
 	      context.startService(service1);
-		
-	}
-	
-	private void sendNotification(Context context){
-		Log.d(TAG,"sending notification");
 		
 	}
 
