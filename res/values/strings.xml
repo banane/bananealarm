@@ -3,6 +3,9 @@
 
     <string name="app_name">alarm</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="button_title">Get Bananas</string>
+    <string name="notification_title">Bananas</string>
+    <string name="notification_subject">Get them while they\'re fresh!</string>
+    <string name="ticker_count_label">Number of notifications\:</string>
 
 </resources>
